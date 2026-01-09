@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: poppins, sans-serif;
 }
 li {
     list-style: none;
@@ -14,14 +15,13 @@ a {
     --btn-background: #30B868
 }
 
+/* Navigation Bar */
 .nav {
     overflow: hidden;
-
-  
 }
 .n_container {
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 90%;
+    margin: auto;
     padding-top: 12px;
     padding-bottom: 12px;
     display: flex;
@@ -30,7 +30,6 @@ a {
 }
 .n_logo {
     width: 100px;
-
 }
 .n_list_container {
     display: flex;
@@ -60,4 +59,89 @@ a {
     padding: 12px 15px;
     display: inline-block;
     border-radius: 5px;
+}
+
+/* Main Content styles */
+.main_content_container {
+    width: 90%;
+    margin: auto;
+}
+/* Banner Section */
+.bnr_container {
+    padding-top:100px;
+    padding-bottom:100px;
+    text-align: center;
+    color:#fff;
+    background-image: url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+.second_head {
+    color: var(--btn-background);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bnr_container p {
+    margin:auto;
+    width: 60%;
+}
+.bnr_top_btn {
+    border:none;
+    border-radius: 15px;
+}
+.bnr_top_btn a{
+    display: inline-block;
+    color: var(--btn-background);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;;
+}
+.bnr_btn_container {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.bnr_btn_container button {
+    border: none;
+    background-color: transparent;
+    transition: var(--btn-background) 0.3s ease;
+}
+
+.bnr_btn_container button a {
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.bnr_btn1 a {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bnr_btn2 a {
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.bnr_btn1 a img {
+    width: 16px;
+}
+.bnr_btn2 a img {
+    width: 16px;
+}
+.bnr_btn_container button :hover {
+    background-color: var(--btn-background);
+    border: none;
 }
