@@ -243,3 +243,37 @@ a {
 .bolet_item_container h5 img {
     width: 20px;
 }
+.sec_container {
+    padding: 90px;
+    background-color: #F7F6F2;
+    margin-bottom: 50px;
+    text-align:center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+}
+.sec_container h3 {
+    font-size:25px;
+    font-weight:700;
+}
+.sec_container p {
+    font-size: 14px;
+    width: 70%;
+    margin:auto;
+}
+.ready_btn {
+    border: none;
+    background-color: var(--btn-background);
+    border-radius: 4px;
+}
+.ready_btn a {
+    display: inline-flex;
+    align-items:center;
+    color:#fff;
+    gap:6px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right:15px;
+    padding-top:8px;
+    padding-bottom:8px;
