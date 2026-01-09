@@ -277,3 +277,32 @@ a {
     padding-right:15px;
     padding-top:8px;
     padding-bottom:8px;
+}
+
+/* footer section */
+.footer_container {
+    padding:100px;
+    background-color:#01112b
+}
+.footer_header {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.social {
+    color:#fff;
+
+}
+.social a {
+    color:#fff;
+}
+.social h5 {
+    font-weight: 600;
+    font-size:20px;
+    margin-bottom: 16px;
+}
+.social ul{
+    display:flex;
+    align-items:center;
+    gap: 25px;
+}
