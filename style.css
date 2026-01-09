@@ -92,6 +92,7 @@ a {
 .bnr_container p {
     margin:auto;
     width: 60%;
+    font-size: 14px;
 }
 .bnr_top_btn {
     border:none;
@@ -144,4 +145,56 @@ a {
 .bnr_btn_container button :hover {
     background-color: var(--btn-background);
     border: none;
+}
+
+/* Notes Section */
+.note_container {
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+.note_container h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.note_container p {
+    font-size: 15px;
+}
+.note_card_container {
+    display:flex;
+    align-items:center;
+    margin-top: 30px;
+    text-align: center;
+    gap: 20px;
+}
+.note_card_container .card {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding:12px; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.note_card_container .card_logo {
+    background-color: #F95555;
+    padding:10px;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+}
+.note_card_container .card_logo img {
+    width: 100%;
+}
+.note_card_container .card h4 {
+    font-weight: 700;
+}
+.note_card_container .card p {
+    font-size: 14px;
 }
